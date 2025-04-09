@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>여기에는 문서의 제목을 입력해주세요</title>
+  <style>
+      #header {
+      color: blue;
+      font-size: 24px;
+    }
+    .section-1 {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <!--<a href="https://www.google.com" target="_blank">
+        <img src="/img.gif" alt="구글로 가기">
+      </a> -->
+  </div>
+  <input type="text" placeholder="텍스트를 입력하세요">
+  <input type="password" placeholder="비밀번호를 입력하세요">
+  <br>
+  사과<input type="number" min="-1000" max="1000" step="100">개 주세요!
+  <input type="color">
+ <br>
+  <input type="radio" name="asdasd">국어
+  <input type="checkbox" name="asdasd">국어
+  <input type="checkbox" name="asdasd">국어
+  <input type="checkbox" name="asdasd">국어
+  <input type="checkbox" name="asdasd">국어
+  <br>
+  <label>
+    아이디 <input type="text" placeholder="텍스트를 입력하세요">
+    <br>
+    비밀번호 <input type="password" placeholder="비밀번호를 입력하세요">
+  </label>
+  <br>
+  <select multiple>
+    <option value="coffee">커피</option>
+    <option value="coke">콜라</option>
+    <option value="juice">쥬스</option>
+    <option value="water" selected>생수</option>
+    <option value="tea">녹차</option>
+    <option value="beer">맥주</option>
+  </select>
+  <textarea cols="10" rows="5"></textarea>
+  <p>다운로드중</p>
+  <progress></progress>  <body>
+    <!-- value 속성에 콘텐츠를 써 줍니다. -->
+    <input type="button" value="PUSH">
+  
+    <!-- 태그 사이에 콘텐츠를 써 줍니다. -->
+    <button>PUSH</button>
+  
+  
+    <form method="post" action="fake_server.php">
+      <label for="name">이름</label>
+      <input type="text" id="name" name="name">
+      <br>
+      <label for="age">나이</label>
+      <input type="number" id="age" name="age">
+      <br>
+      <label for="character">성격</label>
+      <textarea id="character" name="character"></textarea>
+      <br>
+      <input type="submit" value="전송">
+    </form>
+    <audio controls>
+        <source src="./Winner_Winner_Funky_Chicken_Dinner.mp3">
+        <source src="./Winner_Winner_Funky_Chicken_Dinner.ogg">
+
+    </audio>
+    <video muted autoplay  controls  loop width="300" height="200">
+        <source src="./246856_small.mp4">
+        <source src="./246856_small.webm">
+        <source src="./246856_small.ogv">
+
+    </video>  
+
+    <h3>지도 가져오기</h3>
+  <iframe id="inlineFrameExample"
+      title="Inline Frame Example"
+      width="300"
+      height="200"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+  </iframe>
+  <p>잘 가져온 것 같네요 ^^</p>
+
+</body>
+</html>
